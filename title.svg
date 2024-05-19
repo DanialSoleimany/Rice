@@ -1,12 +1,21 @@
 <svg xmlns="http://www.w3.org/2000/svg" height="80" width="400">
-  <g>
-    <foreignObject width="100%" height="100%">
-      <div xmlns="http://www.w3.org/1999/xhtml">
-        <svg height="80" width="400">
-          <rect width="100%" height="80" fill="green" rx="20" ry="0"/>
-          <text x="50%" y="50%" fill="yellow" font-size="24px" text-anchor="middle" dominant-baseline="middle" font-weight="bold">TypeScript Course</text>
-        </svg>
-      </div>
-    </foreignObject>
-  </g>
+    <style>
+        .title {
+            transition: fill .3s ease;
+            cursor: pointer;
+            font-family: Helvetica, sans-serif;
+            fill: yellow;
+            text-anchor: middle;
+            dominant-baseline: middle;
+            font-size: 24px;
+        }
+        .background {
+            fill: green;
+            rx: 20 0 0 20; /* Rounded upper left and bottom left corners */
+        }
+    </style>
+    <g class="title">
+        <rect class="background" width="100%" height="80" rx="20 0 0 20"></rect>
+        <text x="50%" y="50%" font-weight="bold">TypeScript Course</text>
+    </g>
 </svg>
