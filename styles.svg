@@ -1,11 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="2000">
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1200">
   <style>
     .title { fill: #000000; font-size: 24px; font-weight: bold; }
     .background { fill: #FBFFED; }
     .content { fill: #000000; font-size: 16px; }
     .link { fill: #1a0dab; }
   </style>
-  <rect x="0" y="0" width="800" height="2000" fill="white"/>
+  <rect x="0" y="0" width="800" height="1200" fill="white"/>
 
   <text x="10" y="40" class="title">Rice Varieties Classification Using Convolutional Neural Networks (CNN) and AlexNet</text>
   
@@ -14,9 +14,9 @@
   <text x="20" y="110" class="content">This work uses Convolutional Neural Networks (CNN) to classify five different rice varieties based on their images. By analyzing 75,000 grain images, the CNN model achieved a 99% and AlexNet model achieved a 95% success rate in distinguishing between the varieties.</text>
 
   <text x="20" y="150" class="title">Connect with Me</text>
-  <text x="20" y="180" class="link"><a href="https://www.kaggle.com/dankok">Kaggle</a></text>
-  <text x="20" y="210" class="link"><a href="https://www.linkedin.com/in/danial-soleimany-30abb4220/">LinkedIn</a></text>
-  <text x="20" y="240" class="link"><a href="https://github.com/DanialSoleimany">GitHub</a></text>
+  <text x="20" y="180" class="link"><a href="https://www.kaggle.com/dankok" target="_blank">Kaggle</a></text>
+  <text x="20" y="210" class="link"><a href="https://www.linkedin.com/in/danial-soleimany-30abb4220/" target="_blank">LinkedIn</a></text>
+  <text x="20" y="240" class="link"><a href="https://github.com/DanialSoleimany" target="_blank">GitHub</a></text>
 
   <rect x="10" y="270" width="780" height="30" class="background"/>
   <text x="20" y="290" class="title">Table of Contents</text>
