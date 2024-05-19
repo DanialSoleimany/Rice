@@ -13,28 +13,3 @@ Though, there are several ways you can inject a CSS file or link into your READM
 This is a title that can be manipulated.
 
 ## ![plot](./subTitle.svg)
-
-This is a sub-title with cyan color but can be manipulated
-title.svg:
-
-<svg xmlns="http://www.w3.org/2000/svg" height="80">
-    <style src="./style.css" >
-        .title {
-          transition: fill .3s ease;
-          <!-- cursor: works in github not in preview mode -->
-          cursor: pointer;
-          font-family: Helvetica, sans-serif;
-          border-radius: 5px 5px 5px 5px;
-          fill:#2c1300;
-          text-anchor: middle;
-          dominant-baseline: middle;
-          font-size: 24px;
-        }
-
-    </style>
-
-    <g class="title">
-        <rect rx="5" width="100%" height="80"></rect>
-        <text x="50%" y="50%" width="" font-weight="bold" fill="yellow" >TypeScript Course</text>
-    </g>
-</svg>
