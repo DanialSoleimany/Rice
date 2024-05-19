@@ -1,33 +1,14 @@
-# Rice Varieties Classification Using Convolutional Neural Networks (CNN) and AlexNet
+h1 {
+  color: red;
+  animation: myanimation 2s infinite;
+}
 
-## <div style="background-color:#FBFFED;padding:10px;">How are Convolutional Neural Networks (CNN) and AlexNet used in classifying rice varieties?</div>
-This work uses Convolutional Neural Networks (CNN) to classify five different rice varieties based on their images. By analyzing 75,000 grain images, the CNN model achieved a 99% and AlexNet model achieved a 95% success rate in distinguishing between the varieties.
-
-## Connect with Me
-[Kaggle](https://www.kaggle.com/dankok)  
-[LinkedIn](https://www.linkedin.com/in/danial-soleimany-30abb4220/)  
-[GitHub](https://github.com/DanialSoleimany)  
-
-## <div style="background-color:#FBFFED;padding:10px;">Table of Contents</div>
-1. [Configuration & Libraries](#conf)
-2. [Load Dataset](#load-data)
-3. [Dataset Overview](#dataset-overview)
-4. Prepare Data
-    1. [Integrate Data](#integrate)
-    2. [Splitting Data](#split)
-    3. [Data Generator & Normalization](#gen-norm)
-5. Modeling
-    1. [CNN](#cnn)
-    2. [AlexNet](#alexnet)
-6. [Evaluation Of Models](#evaluation)
-7. [Best Model's Performance](#best-model)
-8. [Future Works](#future)
-
-## <div style="background-color:#FBFFED;padding:10px;">What are the different varieties of rice used in this work?</div>
-Rice, which is among the most widely produced grain products worldwide, has many genetic varieties. These varieties are separated from each other due to some of their features, such as texture, shape, and color. In this work, five different varieties of rice often grown in Turkey were used: Arborio, Basmati, Ipsala, Jasmine, and Karacadag.
-
-## <div style="background-color:#FBFFED;padding:10px;">How many grain images were included in the dataset?</div>
-A total of 75,000 grain images were included in the dataset, with 15,000 images from each of the five rice varieties: Arborio, Basmati, Ipsala, Jasmine, and Karacadag.
-
-## <div style="background-color:#FBFFED;padding:10px;">Future Work</div>
-We can explore improving the performance of CNN and AlexNet models by experimenting with different optimizers such as RMSprop and Adagrad. Additionally, trying alternative CNN architectures like VGGNet and ResNet can help determine if they yield better results in classifying various types of rice images. Increasing the number of epochs and adjusting other hyperparameters are also avenues worth exploring to assess their impact on performance.
+@keyframes myanimation {
+  from {
+    color: red;
+  }
+  to {
+    color: yellow;
+  }
+}
+<h1>Hello world!</h1>
