@@ -1,14 +1,7 @@
-h1 {
-  color: red;
-  animation: myanimation 2s infinite;
-}
+# My GitHub README
 
-@keyframes myanimation {
-  from {
-    color: red;
-  }
-  to {
-    color: yellow;
-  }
-}
-<h1>Hello world!</h1>
+Welcome to my README!
+
+<div align="center">
+    <img src="example.svg" width="400" height="400" alt="css-in-readme">
+</div>
